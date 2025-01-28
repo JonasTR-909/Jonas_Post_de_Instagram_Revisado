@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post de Jonas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" >
+
+
+</head>
+<body>
+    <div class="header">
+        <div class="profile">
+            <img src="https://fastly.picsum.photos/id/669/4869/3456.jpg?hmac=g-4rQWsPdHoLi5g6ahHlvjKubSQzR-D9m7-WtblbmyM"
+            alt="fa-brands fa-square-instagram"
+            class="profile-picture"
+            >
+        </div>
+        <div class="user">
+            <div class="nickname">
+                <strong>photo_gallery_ig</strong>
+            </div>
+            <div class="name">
+                Jonas Velarde
+            </div>
+        </div> 
+        <div class="settings">
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+    </div>
+
+    <div class="photo">
+        <!-- Botón de imagen con ID para detectar clics -->
+        <button class="image-button" id="imageButton">
+            <img class="image" 
+            src="https://picsum.photos/400/320?random=1"
+            alt="fa-brands fa-square-instagram"
+            >
+        </button>
+        <!-- Ícono de fondo transparente para la foto -->
+        <i class="fa-solid fa-heart heart-back-icon"></i>
+    </div>
+
+    <div class="iconsbar">
+        <div class="like">
+        <!-- Botón de "like" con ID para detectar clics -->
+        <button class="like-button" id="likeButton">
+            <i class="fa-regular fa-heart"></i>
+        </button>
+        <!-- Ícono de fondo sólido para el botón "like" -->
+        <i class="fa-solid fa-heart like-back-icon"></i>
+        </div>
+        <div class="comment">
+            <button class="comment-button">
+                <i class="fa-regular fa-comment"></i>
+            </button>
+        </div>
+        <div class="sharewith">
+            <button class="sharewith-button">
+                <i class="fa-regular fa-paper-plane"></i>
+            </button>
+        </div>
+        <div class="keep">
+            <button class="keep-button">
+                <i class="fa-regular fa-bookmark"></i>
+            </button>
+        </div>
+        </div>
+
+    <div class="feedback">
+        Liked by <b>jibi_86, best_friends, family</b> and <b><span class="count" id="feedbackCount">2</span> others</b>
+    </div>
+    <div class="description">
+        📸 Aquí una imagen que destaca por su equilibrio y composición. Cada detalle parece estar en su lugar. La combinación de colores y texturas resalta, mientras la luz aporta profundidad a la escena. Transmite algo especial. Y tú, ¿Qué opinas? 🌟 #Fotografía
+    </div>
+    
+    <script src="index.js"></script>
+
+</body>
+</html>
