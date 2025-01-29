@@ -1,9 +1,8 @@
-{  
-    border: 1px, dashed;
-    border-color: blueviolet;
-}
-
 html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     background-color: rgb(27, 26, 26); 
     padding: 10px 20px;
   }
